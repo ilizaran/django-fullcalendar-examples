@@ -5,9 +5,9 @@ from schedule.periods import Month
 
 from .views import create_rule
 from myagenda.views import home, coerce_dates_dict, occurrences_to_json, occurrences_to_html
-from django.views.generic.list_detail import object_list
+from django.views.generic import ListView
 from myagenda.models import MyCalendar
-from django.views.generic.create_update import create_object
+from django.views.generic.edit import CreateView
 from myagenda.forms import MyEventForm
 
 urlpatterns = patterns('',
@@ -16,18 +16,10 @@ urlpatterns = patterns('',
      {'template_name': 'myagenda/login.html'}),
     url(r'^$', home, name="myagenda_home"),
 
-    url(r'^calendar/create/$',
-        create_object,
-        name="calendar_create",
-        kwargs={'model':MyCalendar,
-                'post_save_redirect' : '/'}),
+    url(r'^calendar/create/$',CreateView.as_view(model=MyCalendar, success_url="/"),name="calendar_create"),
 
     # urls for Calendars
-    url(r'^calendar/list/$',
-        object_list,
-        name="calendar_list",
-        kwargs={'queryset':MyCalendar.objects.all(),
-                'template_name':'schedule/calendar_list.html'}),
+    url(r'^calendar/list/$', ListView.as_view(queryset=MyCalendar.objects.all()), name='schedule'),
 
     #Rule
     url(r'^rule/create/$',

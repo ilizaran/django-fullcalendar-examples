@@ -10,7 +10,7 @@ $(document).ready(function() {
 	{{cal.slug|replace:"-,_"}}_events_source =  {
        events:function(start, end, callback) {
             $.ajax({
-                url: '{% url month_calendar_json cal.slug%}',
+                url: '{% url 'month_calendar_json' cal.slug%}',
                 dataType: 'json',
                 data: {
                     start: Math.round(start.getTime()),
@@ -32,7 +32,7 @@ $(document).ready(function() {
                     }
                     callback(events);
                     $.ajax({
-                        url: '{% url month_calendar_html cal.slug%}',
+                        url: '{% url "month_calendar_html" cal.slug%}',
                         dataType: 'html',
                         data: {
                             start: Math.round(start.getTime()),
@@ -85,7 +85,7 @@ $(document).ready(function() {
 			}
 			var start =  Math.round(startDate.getTime());
 			var end =  Math.round(endDate.getTime());
-			var url = '{% url calendar_create_event %}?start='+start
+			var url = '{% url "calendar_create_event" %}?start='+start
 			if (start != end){
 				url += '&end='+end
 			}
