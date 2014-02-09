@@ -102,7 +102,7 @@ $(document).ready(function() {
 	    	});
 	    },
 	    eventDrop: function(event,dayDelta,minuteDelta) {
-	    	$.get("{% url ajax_move_or_resize %}", 
+	    	$.get("{% url "ajax_move_or_resize" %}", 
 	    		  {id: event.id,
 	    	       dayDelta : dayDelta,
 	    	       minuteDelta : minuteDelta},
@@ -117,7 +117,7 @@ $(document).ready(function() {
 	               "json");
 	    },
 	    eventResize: function(event,dayDelta,minuteDelta) {
-	    	$.get("{% url ajax_move_or_resize %}", 
+	    	$.get("{% url "ajax_move_or_resize" %}", 
                   {id: event.id,
                    dayDelta : dayDelta,
                    minuteDelta : minuteDelta,
@@ -185,7 +185,7 @@ div.{{cal.slug|replace:"-,_"}}_event {
 {% block content %}
 <div id="info_panel" class="grid_2 alpha">
 <h4>{% trans 'calendar'|capfirst %}{{calendars.count|pluralize}}
-    (<a id="new_calendar_link" href="{% url calendar_create %}" >
+    (<a id="new_calendar_link" href="{% url "calendar_create" %}" >
         <img src="{{MEDIA_URL}}/schedule/img/add.png" alt="{% trans 'add a calendar'|capfirst%}"/>
      </a>)
 </h4>
@@ -205,7 +205,7 @@ div.{{cal.slug|replace:"-,_"}}_event {
 </div>
 <div id="events_panel" class="grid_3 omega" style="overflow:auto;">
     <h4>{%trans 'event'|capfirst%}{{occurences.count|pluralize}}
-        (<a id="create_event_link" href="{% url calendar_create_event %}">
+        (<a id="create_event_link" href="{% url "calendar_create_event" %}">
             <img src="{{MEDIA_URL}}/schedule/img/add.png" alt="{% trans 'add an event'|capfirst%}"/>
         </a>)
    </h4>

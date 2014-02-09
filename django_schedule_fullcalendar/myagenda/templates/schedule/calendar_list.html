@@ -4,8 +4,8 @@
 <h2>Available Calendars</h2>
 <ul>
 {% for cal in object_list %}
-<li><a href="{% url month_calendar cal.slug %}">{{ cal }}</a></li>
+<li><a href="{% url 'month_calendar' cal.slug %}">{{ cal }}</a></li>
 {% endfor %}
 </ul>
-<a href="{% url calendar_create %}">Add a new calendar</a>
+<a href="{% url 'calendar_create' %}">Add a new calendar</a>
 {% endblock %}

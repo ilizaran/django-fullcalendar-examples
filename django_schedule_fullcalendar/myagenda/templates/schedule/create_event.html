@@ -1,7 +1,7 @@
 {% extends "schedule/edit_occurrence.html"%}
 
 
-{% block form_action %}{% url calendar_create_event %}{% endblock%}
+{% block form_action %}{% url 'calendar_create_event' %}{% endblock%}
 
 {% block recurrence %}
 
@@ -17,7 +17,7 @@
                <!-- 
           	Admin or Front-end ?
              
-              <a href="{% url myagenda_create_rule %}">[+]</a>
+              <a href="{% url 'myagenda_create_rule' %}">[+]</a>
 
            -->
 </div>
