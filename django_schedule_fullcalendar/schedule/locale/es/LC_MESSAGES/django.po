@@ -30,6 +30,8 @@ msgid ""
 "Extra parameters to define this type of recursion. Should follow this "
 "format: rruleparam:value;otherparam:value."
 msgstr ""
+"Parametros extras para definir este tipo de recursión. Debería seguir este "
+"formato: rruleparam:value;otherparam:value."
 
 #: forms.py:69
 msgid "Params format looks invalid"
