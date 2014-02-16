@@ -5,8 +5,14 @@ from django.contrib import admin
 
 admin.autodiscover()
 
+js_info_dict = {
+    'packages': ('myagenda',),
+}
+
+
 urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^jsi18n/$', 'django.views.i18n.javascript_catalog', js_info_dict),
     url(r'^', include('myagenda.urls')),
 )
 

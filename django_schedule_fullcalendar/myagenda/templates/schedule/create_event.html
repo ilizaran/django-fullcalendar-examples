@@ -1,5 +1,5 @@
 {% extends "schedule/edit_occurrence.html"%}
-
+{% load i18n %}
 
 {% block form_action %}{% url 'calendar_create_event' %}{% endblock%}
 
@@ -12,7 +12,7 @@
               {{form.end_recurring_period.errors}}
           </p>
           <p>
-              <label>Repetition rule</label>{{form.rule}}          
+              <label>{% trans "Repetition rule" %}</label>{{form.rule}}          
           </p>
                <!-- 
           	Admin or Front-end ?

@@ -11,14 +11,12 @@
         {% options occ %}
         {% endif %}
 	</p>
+	<p>
 	{% if occ.description %}
-	<p><em>Description : {{occ.description}}</em></p>
+	<em> {{occ.description}}</em><br />
 	{% endif %}
-	<p>
-		Begins the {{occ.start.date}} at {{occ.start.time}}	
-	</p>
-	<p>
-		Ends the {{occ.end.date}} at {{occ.end.time}}
+		{% trans "Begins the" %} {{occ.start}} <br />	
+		{% trans "Ends the" %} {{occ.end.date}} {% trans "at" %} {{occ.end.time}}
 	</p>
 </div>
 {% endfor %}

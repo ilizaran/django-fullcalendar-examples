@@ -1,4 +1,5 @@
 {{ block.super }}
+{% load i18n %}
 <script>
 function openCancelDialog(node, cancel_url, delete_url, event){
   event.stopPropagation();
@@ -40,7 +41,7 @@ function openMoveResizeDialog(move_or_resize_url){
 
 function openDetail(node){
   var btns = { "Close":function(){$(this).dialog("destroy");}};
-  dia = $($(node).attr("href")).dialog({'buttons':btns, 'modal':true, 'title':'Details'});
+  dia = $($(node).attr("href")).dialog({'buttons':btns, 'modal':true, 'title':'{% trans "Details" %}'});
   dia.dialog('open');
   return false;
 }
@@ -62,15 +63,15 @@ function callURL(url, event){
 }
 </script>
 
-<div style="display:none;" id="delete_dialog" title="Question">
-  Do you want to cancel this occurrence or delete all occurrences of this event?
+<div style="display:none;" id="delete_dialog" title="{% trans "Question" %}">
+  {% trans "Do you want to cancel this occurrence or delete all occurrences of this event?" %}
 </div>
 
-<div style="display:none;" id="edit_dialog" title="This is a recurring event">
-  Do you want to edit this occurrence or all occurrences?
+<div style="display:none;" id="edit_dialog" title="{% trans "This is a recurring event" %}">
+  {% trans "Do you want to edit this occurrence or all occurrences?" %}
 </div>
 
 <div style="display:none;" id="move_resize_dialog">
-  Do you want to just move/resize this occurrence or all occurrences of this event?
+  {% trans "Do you want to just move/resize this occurrence or all occurrences of this event?" %}
 </div>
 

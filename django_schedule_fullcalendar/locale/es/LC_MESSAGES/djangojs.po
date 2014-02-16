@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-16 23:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: media/js/fullcalendar/fullcalendar.js:64
+msgid "January"
+msgstr "Enero"
+
+#: media/js/fullcalendar/fullcalendar.js:64
+msgid "April"
+msgstr "Abril"
+
+#: media/js/fullcalendar/fullcalendar.js:64
+#: media/js/fullcalendar/fullcalendar.js:65
+msgid "May"
+msgstr "Mayo"
+
+#: media/js/fullcalendar/fullcalendar.js:64
+msgid "June"
+msgstr "Junio"
+
+#: media/js/fullcalendar/fullcalendar.js:64
+msgid "July"
+msgstr "Julio"
+
+#: media/js/fullcalendar/fullcalendar.js:64
+msgid "August"
+msgstr "Agosto"
+
+#: media/js/fullcalendar/fullcalendar.js:64
+msgid "September"
+msgstr "Septiembre"
+
+#: media/js/fullcalendar/fullcalendar.js:64
+msgid "October"
+msgstr "Octubre"
+
+#: media/js/fullcalendar/fullcalendar.js:64
+msgid "November"
+msgstr "Noviembre"
+
+#: media/js/fullcalendar/fullcalendar.js:64
+msgid "December"
+msgstr "Diciembre"
+
+#: media/js/fullcalendar/fullcalendar.js:65
+msgid "Jan"
+msgstr "Ene"
+
+#: media/js/fullcalendar/fullcalendar.js:65
+msgid "Feb"
+msgstr "Feb"
+
+#: media/js/fullcalendar/fullcalendar.js:65
+msgid "Mar"
+msgstr "Mar"
+
+#: media/js/fullcalendar/fullcalendar.js:65
+msgid "Apr"
+msgstr "Abr"
+
+#: media/js/fullcalendar/fullcalendar.js:65
+msgid "Jun"
+msgstr "Jun"
+
+#: media/js/fullcalendar/fullcalendar.js:65
+msgid "Jul"
+msgstr "Jul"
+
+#: media/js/fullcalendar/fullcalendar.js:65
+msgid "Aug"
+msgstr "Ago"
+
+#: media/js/fullcalendar/fullcalendar.js:65
+msgid "Sep"
+msgstr "Sep"
+
+#: media/js/fullcalendar/fullcalendar.js:65
+msgid "Oct"
+msgstr "Oct"
+
+#: media/js/fullcalendar/fullcalendar.js:65
+msgid "Nov"
+msgstr "Nov"
+
+#: media/js/fullcalendar/fullcalendar.js:65
+msgid "Dec"
+msgstr "Dec"
+
+#: media/js/fullcalendar/fullcalendar.js:66
+msgid "Sunday"
+msgstr "Domingo"
+
+#: media/js/fullcalendar/fullcalendar.js:66
+msgid "Monday"
+msgstr "Lunes"
+
+#: media/js/fullcalendar/fullcalendar.js:66
+msgid "Tuesday"
+msgstr "Martes"
+
+#: media/js/fullcalendar/fullcalendar.js:66
+msgid "Wednesday"
+msgstr "Miercoles"
+
+#: media/js/fullcalendar/fullcalendar.js:66
+msgid "Thursday"
+msgstr "Jueves"
+
+#: media/js/fullcalendar/fullcalendar.js:66
+msgid "Friday"
+msgstr "Viernes"
+
+#: media/js/fullcalendar/fullcalendar.js:66
+msgid "Saturday"
+msgstr "Sábado"
+
+#: media/js/fullcalendar/fullcalendar.js:67
+msgid "Sun"
+msgstr "Dom"
+
+#: media/js/fullcalendar/fullcalendar.js:67
+msgid "Mon"
+msgstr "Lun"
+
+#: media/js/fullcalendar/fullcalendar.js:67
+msgid "Tue"
+msgstr "Mar"
+
+#: media/js/fullcalendar/fullcalendar.js:67
+msgid "Wed"
+msgstr "Mie"
+
+#: media/js/fullcalendar/fullcalendar.js:67
+msgid "Thu"
+msgstr "Jue"
+
+#: media/js/fullcalendar/fullcalendar.js:67
+msgid "Fri"
+msgstr "Vie"
+
+#: media/js/fullcalendar/fullcalendar.js:67
+msgid "Sat"
+msgstr "Sab"
+
+#: media/js/fullcalendar/fullcalendar.js:73
+msgid "today"
+msgstr "hoy"
+
+#: media/js/fullcalendar/fullcalendar.js:74
+msgid "month"
+msgstr "mes"
+
+#: media/js/fullcalendar/fullcalendar.js:75
+msgid "week"
+msgstr "semana"
+
+#: media/js/fullcalendar/fullcalendar.js:76
+msgid "day"
+msgstr "día"
+
+#: media/js/fullcalendar/fullcalendar.js:64
+msgid "March"
+msgstr "Marzo"
+
+#: media/js/fullcalendar/fullcalendar.js:64
+msgid "February"
+msgstr "Febrero"

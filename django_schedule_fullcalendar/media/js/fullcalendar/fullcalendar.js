@@ -61,19 +61,19 @@ var defaults = {
 	// locale
 	isRTL: false,
 	firstDay: 0,
-	monthNames: ['January','February','March','April','May','June','July','August','September','October','November','December'],
-	monthNamesShort: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
-	dayNames: ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],
-	dayNamesShort: ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'],
+	monthNames: [gettext('January'),gettext('February'),gettext('March'),gettext('April'),gettext('May'),gettext('June'),gettext('July'),gettext('August'),gettext('September'),gettext('October'),gettext('November'),gettext('December')],
+	monthNamesShort: [gettext('Jan'),gettext('Feb'),gettext('Mar'),gettext('Apr'),gettext('May'),gettext('Jun'),gettext('Jul'),gettext('Aug'),gettext('Sep'),gettext('Oct'),gettext('Nov'),gettext('Dec')],
+	dayNames: [gettext('Sunday'),gettext('Monday'),gettext('Tuesday'),gettext('Wednesday'),gettext('Thursday'),gettext('Friday'),gettext('Saturday')],
+	dayNamesShort: [gettext('Sun'),gettext('Mon'),gettext('Tue'),gettext('Wed'),gettext('Thu'),gettext('Fri'),gettext('Sat')],
 	buttonText: {
 		prev: '&nbsp;&#9668;&nbsp;',
 		next: '&nbsp;&#9658;&nbsp;',
 		prevYear: '&nbsp;&lt;&lt;&nbsp;',
 		nextYear: '&nbsp;&gt;&gt;&nbsp;',
-		today: 'today',
-		month: 'month',
-		week: 'week',
-		day: 'day'
+		today: gettext('today'),
+		month: gettext('month'),
+		week: gettext('week'),
+		day: gettext('day')
 	},
 	
 	// jquery-ui theming

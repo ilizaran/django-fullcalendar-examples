@@ -116,16 +116,16 @@ msgid "Select '----' for a one time only event."
 msgstr "Seleccione '----' para una cita de una sola ocurrencia."
 
 #: models/events.py:33
-msgid "end recurring period"
-msgstr "fin del período recurrente"
+msgid "End recurring period"
+msgstr "Fin del período recurrente"
 
 #: models/events.py:38 models/events.py:332 models/events.py:352
 msgid "event"
-msgstr "evento"
+msgstr "cita"
 
 #: models/events.py:39
 msgid "events"
-msgstr "eventos"
+msgstr "citas"
 
 #: models/events.py:45
 #, python-format

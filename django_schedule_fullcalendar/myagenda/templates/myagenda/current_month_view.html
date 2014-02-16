@@ -49,7 +49,7 @@ $(document).ready(function() {
         color: '{{cal.get_color_display}}',
         textColor: 'black',
         error: function() {
-            alert('there was an error while fetching events!');
+            alert('{% trans "there was an error while fetching events!" %}');
         }
     };
 	{% endfor %}

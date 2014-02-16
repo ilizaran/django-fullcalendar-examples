@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-16 23:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: templates/myagenda/current_month_view.html:52
+msgid "there was an error while fetching events!"
+msgstr ""
+
+#: templates/myagenda/current_month_view.html:187
+msgid "calendar"
+msgstr ""
+
+#: templates/myagenda/current_month_view.html:189
+msgid "add a calendar"
+msgstr ""
+
+#: templates/myagenda/current_month_view.html:198
+msgid "no calendar"
+msgstr ""
+
+#: templates/myagenda/current_month_view.html:207
+msgid "event"
+msgstr ""
+
+#: templates/myagenda/current_month_view.html:209
+msgid "add an event"
+msgstr ""
+
+#: templates/myagenda/event_list.html:18
+msgid "Begins the"
+msgstr ""
+
+#: templates/myagenda/event_list.html:18 templates/myagenda/event_list.html:19
+msgid "at"
+msgstr ""
+
+#: templates/myagenda/event_list.html:19
+msgid "Ends the"
+msgstr ""
+
+#: templates/myagenda/login.html:8
+msgid "Your username and password didn't match. Please try again."
+msgstr ""
+
+#: templates/myagenda/mycalendar_form.html:9
+#: templates/myagenda/rule_form.html:4
+#: templates/schedule/edit_occurrence.html:93
+msgid "Create"
+msgstr ""
+
+#: templates/schedule/_create_event_options.html:2
+msgid "Add Event"
+msgstr ""
+
+#: templates/schedule/_dialogs.html:44
+msgid "Details"
+msgstr ""
+
+#: templates/schedule/_dialogs.html:66
+msgid "Question"
+msgstr ""
+
+#: templates/schedule/_dialogs.html:67
+msgid ""
+"Do you want to cancel this occurrence or delete all occurrences of this "
+"event?"
+msgstr ""
+
+#: templates/schedule/_dialogs.html:70
+msgid "This is a recurring event"
+msgstr ""
+
+#: templates/schedule/_dialogs.html:71
+msgid "Do you want to edit this occurrence or all occurrences?"
+msgstr ""
+
+#: templates/schedule/_dialogs.html:75
+msgid ""
+"Do you want to just move/resize this occurrence or all occurrences of this "
+"event?"
+msgstr ""
+
+#: templates/schedule/calendar_list.html:3
+#: templates/schedule/calendar_list.html:5
+msgid "Available Calendars"
+msgstr ""
+
+#: templates/schedule/calendar_list.html:11
+msgid "Add a new calendar"
+msgstr ""
+
+#: templates/schedule/cancel_occurrence.html:4
+#: templates/schedule/cancel_occurrence.html:9
+#: templates/schedule/delete_event.html:4
+#: templates/schedule/delete_event.html:9
+msgid "Delete"
+msgstr ""
+
+#: templates/schedule/cancel_occurrence.html:5
+msgid "Are you sure that you really want to cancel this occurrence?"
+msgstr ""
+
+#: templates/schedule/cancel_occurrence.html:10
+#: templates/schedule/delete_event.html:10
+msgid "Cancel"
+msgstr ""
+
+#: templates/schedule/create_event.html:15
+msgid "Repetition rule"
+msgstr ""
+
+#: templates/schedule/delete_event.html:5
+msgid "Are you sure that you really want to delete this event?"
+msgstr ""
+
+#: templates/schedule/edit_occurrence.html:70
+msgid "Date"
+msgstr ""
