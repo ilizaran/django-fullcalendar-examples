@@ -185,9 +185,9 @@ div.{{cal.slug|replace:"-,_"}}_event {
 {% block content %}
 <div id="info_panel" class="grid_2 alpha">
 <h4>{% trans 'calendar'|capfirst %}{{calendars.count|pluralize}}
-    (<a id="new_calendar_link" href="{% url "calendar_create" %}" >
+    <a id="new_calendar_link" href="{% url "calendar_create" %}" >
         <img src="{{MEDIA_URL}}/schedule/img/add.png" alt="{% trans 'add a calendar'|capfirst%}"/>
-     </a>)
+     </a>
 </h4>
 <ul>
 {% for cal in calendars %}
@@ -204,10 +204,10 @@ div.{{cal.slug|replace:"-,_"}}_event {
 	</div>
 </div>
 <div id="events_panel" class="grid_3 omega" style="overflow:auto;">
-    <h4>{%trans 'event'|capfirst%}{{occurences.count|pluralize}}
-        (<a id="create_event_link" href="{% url "calendar_create_event" %}">
+    <h4>{%trans 'Events' %}
+        <a id="create_event_link" href="{% url "calendar_create_event" %}">
             <img src="{{MEDIA_URL}}/schedule/img/add.png" alt="{% trans 'add an event'|capfirst%}"/>
-        </a>)
+        </a>
    </h4>
     <div id="allEvents">
     </div>

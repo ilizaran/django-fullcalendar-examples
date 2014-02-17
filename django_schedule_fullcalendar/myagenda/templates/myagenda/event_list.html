@@ -15,8 +15,7 @@
 	{% if occ.description %}
 	<em> {{occ.description}}</em><br />
 	{% endif %}
-		{% trans "Begins the" %} {{occ.start}} <br />	
-		{% trans "Ends the" %} {{occ.end.date}} {% trans "at" %} {{occ.end.time}}
+		 {{occ.start|date:'d/m/Y H:i'}} <br /> {{occ.end|date:'d/m/Y H:i'}}
 	</p>
 </div>
 {% endfor %}
