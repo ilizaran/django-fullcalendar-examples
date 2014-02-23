@@ -19,7 +19,7 @@ function openEditDialog(node, occurrence_url, event_url, event){
   var btns = {"This":function(){openURL(occurrence_url, event);}, 
 		      "All":function(){openURL(event_url, event);}, 
 		      "Do nothing":function(){
-                  $(this).dialog("destroy");
+		      		$(this).dialog("destroy");
                   $('#calendar').fullCalendar('refetchEvents');
               }};
   dia = $("#edit_dialog").dialog({'buttons':btns, 'modal':true});
@@ -48,16 +48,16 @@ function openDetail(node){
 
 function openURL(url, event){
     event.stopPropagation();
-    $("#edit_dialog").dialog("destroy");
-    $("#delete_dialog").dialog("destroy");
-    $("#move_resize_dialog").dialog("destroy");
+    if ($('#edit_dialog').is('dialog')) {$("#edit_dialog").dialog("destroy");}
+    if ($('#delete_dialog').is('dialog')) {$("#edit_dialog").dialog("destroy");}
+    if ($('#move_resize_dialog').is('dialog')) {$("#edit_dialog").dialog("destroy");}
     $.facebox({ajax : url});
 }
 
 function callURL(url, event){
-    $("#edit_dialog").dialog("destroy");
-    $("#delete_dialog").dialog("destroy");
-    $("#move_resize_dialog").dialog("destroy");
+    if ($('#edit_dialog').is('dialog')) {$("#edit_dialog").dialog("destroy");}
+    if ($('#delete_dialog').is('dialog')) {$("#edit_dialog").dialog("destroy");}
+    if ($('#move_resize_dialog').is('dialog')) {$("#edit_dialog").dialog("destroy");}
     $.get(url);
     $('#calendar').fullCalendar('refetchEvents');
 }
