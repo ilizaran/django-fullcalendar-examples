@@ -1,7 +1,7 @@
 {% extends "base.html"%}
 {% load i18n %}
 
-{% block htmltitle %}New calendar{% endblock %}
+{% block htmltitle %}{% trans "New calendar" %}{% endblock %}
 
 {% block content %}
 <form action="{% url 'calendar_create' %}" method="post">{% csrf_token %}

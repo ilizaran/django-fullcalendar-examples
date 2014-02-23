@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 from django.core import serializers
 from django.core.urlresolvers import reverse
 from django.http import HttpResponseRedirect, Http404, HttpResponse
-from django.shortcuts import render_to_response, get_object_or_404
+from django.shortcuts import render_to_response, get_object_or_404, render, redirect
 from django.template import Context, loader, RequestContext
 #from django.views.generic.create_update import delete_object, delete_object
 from schedule.conf.settings import GET_EVENTS_FUNC, OCCURRENCE_CANCEL_REDIRECT
@@ -306,14 +306,10 @@ def delete_event(request, event_id, next=None, login_required=True, extra_contex
     next = next or reverse('day_calendar', args=[event.calendar.slug])
     next = get_next_url(request, next)
     extra_context['next'] = next
-    return delete_object(request,
-                         model=Event,
-                         object_id=event_id,
-                         post_delete_redirect=next,
-                         template_name="schedule/delete_event.html",
-                         extra_context=extra_context,
-                         login_required=login_required
-                        )
+    if request.method=='POST':
+        event.delete()
+        return redirect(next)
+    return render(request,"schedule/delete_event.html", {'object':event})
 
 def check_next_url(next):
     """

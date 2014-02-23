@@ -35,7 +35,6 @@ msgid "no calendar"
 msgstr "no hay calendarios"
 
 #: templates/myagenda/current_month_view.html:207
-#, fuzzy
 msgid "Events"
 msgstr "Citas"
 
@@ -51,7 +50,7 @@ msgstr "Usuario o clave incorrecta. Por favor intentelo de nuevo."
 #: templates/myagenda/rule_form.html:4
 #: templates/schedule/edit_occurrence.html:93
 msgid "Create"
-msgstr "Crear"
+msgstr "Guardar"
 
 #: templates/schedule/_create_event_options.html:2
 msgid "Add Event"

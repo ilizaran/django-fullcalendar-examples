@@ -2800,7 +2800,7 @@ function AgendaDayView(element, calendar) {
 
 setDefaults({
 	allDaySlot: true,
-	allDayText: 'all-day',
+	allDayText: gettext('all-day'),
 	firstHour: 6,
 	slotMinutes: 30,
 	defaultEventMinutes: 120,

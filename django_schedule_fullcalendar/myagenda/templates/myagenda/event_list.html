@@ -6,12 +6,10 @@
 <div class="block event {{occ.event.calendar.slug|replace:'-,_'}}_event" 
      style="{% if occ.cancelled %}background-color: grey;{% endif %}">
     <p>
-        {% title occ %}
+        {% title occ %}<br />
         {% if not occ.cancelled %}
         {% options occ %}
         {% endif %}
-	</p>
-	<p>
 	{% if occ.description %}
 	<em> {{occ.description}}</em><br />
 	{% endif %}

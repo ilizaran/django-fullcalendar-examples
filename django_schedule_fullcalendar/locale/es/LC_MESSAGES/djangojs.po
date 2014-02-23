@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-16 23:38+0100\n"
+"POT-Creation-Date: 2014-02-23 12:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,6 +21,14 @@ msgstr ""
 #: media/js/fullcalendar/fullcalendar.js:64
 msgid "January"
 msgstr "Enero"
+
+#: media/js/fullcalendar/fullcalendar.js:64
+msgid "February"
+msgstr "Febrero"
+
+#: media/js/fullcalendar/fullcalendar.js:64
+msgid "March"
+msgstr "Marzo"
 
 #: media/js/fullcalendar/fullcalendar.js:64
 msgid "April"
@@ -175,10 +183,6 @@ msgstr "semana"
 msgid "day"
 msgstr "día"
 
-#: media/js/fullcalendar/fullcalendar.js:64
-msgid "March"
-msgstr "Marzo"
-
-#: media/js/fullcalendar/fullcalendar.js:64
-msgid "February"
-msgstr "Febrero"
+#: media/js/fullcalendar/fullcalendar.js:2803
+msgid "all-day"
+msgstr "todo el día"

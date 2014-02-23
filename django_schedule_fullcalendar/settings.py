@@ -34,6 +34,9 @@ USE_L10N = True
 
 MEDIA_ROOT = os.path.join(PROJECT_PATH, 'media')
 MEDIA_URL = '/site_media/'
+LOCALE_PATHS = (
+    os.path.join(PROJECT_PATH, 'locale'),
+)
 
 ADMIN_MEDIA_PREFIX = '/media/'
 
@@ -106,6 +109,7 @@ INSTALLED_APPS = (
     'django.contrib.comments',
     'django.contrib.sitemaps',
     'django.contrib.syndication',
+    'django.contrib.staticfiles',    
     'guardian',
     'schedule',
     'myagenda',
