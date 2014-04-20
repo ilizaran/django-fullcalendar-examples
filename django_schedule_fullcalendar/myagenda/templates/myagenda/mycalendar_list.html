@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block head_title %}{% trans "Available Calendars" %}{% endblock %}
+{% block body %}
+<h2>{% trans "Available Calendars" %}</h2>
+<ul>
+{% for cal in object_list %}
+<li><a href="{% url 'month_calendar' cal.slug %}">{{ cal }}</a></li>
+{% endfor %}
+</ul>
+<a href="{% url 'calendar_create' %}">{% trans "Add a new calendar" %}</a>
+{% endblock %}

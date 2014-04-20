@@ -20,84 +20,85 @@ msgstr ""
 
 #: myagenda/templates/myagenda/current_month_view.html:52
 msgid "there was an error while fetching events!"
-msgstr ""
+msgstr "Hubo un error recuperando las citas"
 
 #: myagenda/templates/myagenda/current_month_view.html:187
 #: schedule/models/calendars.py:145 schedule/models/calendars.py:146
 #: schedule/models/calendars.py:229
 msgid "calendar"
-msgstr ""
+msgstr "calendario"
 
 #: myagenda/templates/myagenda/current_month_view.html:189
 msgid "add a calendar"
-msgstr ""
+msgstr "añadir un calendario"
 
 #: myagenda/templates/myagenda/current_month_view.html:198
 msgid "no calendar"
-msgstr ""
+msgstr "no hay calendarios"
 
 #: myagenda/templates/myagenda/current_month_view.html:207
 msgid "Events"
-msgstr ""
+msgstr "Citas"
 
 #: myagenda/templates/myagenda/current_month_view.html:209
 msgid "add an event"
-msgstr ""
+msgstr "añadir una cita"
 
 #: myagenda/templates/myagenda/login.html:8
 msgid "Your username and password didn't match. Please try again."
-msgstr ""
+msgstr "Su usuario y clave no coinciden. Pruebe nuevamente"
 
 #: myagenda/templates/myagenda/mycalendar_form.html:4
 msgid "New calendar"
-msgstr ""
+msgstr "Nuevo calendario"
 
 #: myagenda/templates/myagenda/mycalendar_form.html:9
 #: myagenda/templates/myagenda/rule_form.html:4
 #: myagenda/templates/schedule/edit_occurrence.html:93
 msgid "Create"
-msgstr ""
+msgstr "Guardar"
 
 #: myagenda/templates/schedule/_create_event_options.html:2
 msgid "Add Event"
-msgstr ""
+msgstr "Añadir cita"
 
 #: myagenda/templates/schedule/_dialogs.html:44
 msgid "Details"
-msgstr ""
+msgstr "Detalles"
 
 #: myagenda/templates/schedule/_dialogs.html:66
 msgid "Question"
-msgstr ""
+msgstr "Pregunta"
 
 #: myagenda/templates/schedule/_dialogs.html:67
 msgid ""
 "Do you want to cancel this occurrence or delete all occurrences of this "
 "event?"
 msgstr ""
+"Desea cancelar esta ocurrencia o eliminar todas las citas?"
 
 #: myagenda/templates/schedule/_dialogs.html:70
 msgid "This is a recurring event"
-msgstr ""
+msgstr "Esta es una cita recurrente"
 
 #: myagenda/templates/schedule/_dialogs.html:71
 msgid "Do you want to edit this occurrence or all occurrences?"
-msgstr ""
+msgstr "¿Desea editar esta ocurrencia o todas las ocurrencias?"
 
 #: myagenda/templates/schedule/_dialogs.html:75
 msgid ""
 "Do you want to just move/resize this occurrence or all occurrences of this "
 "event?"
 msgstr ""
-
+"¿Deseas mover o modificar esta ocurrencia o todas las ocurrencias?"
 #: myagenda/templates/schedule/calendar_list.html:3
 #: myagenda/templates/schedule/calendar_list.html:5
 msgid "Available Calendars"
-msgstr ""
+msgstr "Calendarios disponibles"
 
 #: myagenda/templates/schedule/calendar_list.html:11
 msgid "Add a new calendar"
-msgstr ""
+msgstr "Añadir un calendario nuevo"
 
 #: myagenda/templates/schedule/cancel_occurrence.html:4
 #: myagenda/templates/schedule/cancel_occurrence.html:9
@@ -109,12 +110,12 @@ msgstr ""
 #: schedule/templates/schedule/delete_event.html:10
 #: schedule/templates/schedule/event.html:31
 msgid "Delete"
-msgstr ""
+msgstr "Eliminar"
 
 #: myagenda/templates/schedule/cancel_occurrence.html:5
 #: schedule/templates/schedule/cancel_occurrence.html:6
 msgid "Are you sure that you really want to cancel this occurrence?"
-msgstr ""
+msgstr "¿Está seguro de cancelar esta ocurrencia?"
 
 #: myagenda/templates/schedule/cancel_occurrence.html:10
 #: myagenda/templates/schedule/delete_event.html:10
@@ -124,244 +125,245 @@ msgstr ""
 #: schedule/templates/schedule/edit_occurrence.html:13
 #: schedule/templates/schedule/occurrence.html:19
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: myagenda/templates/schedule/create_event.html:15
 msgid "Repetition rule"
-msgstr ""
+msgstr "Regla repetitiva"
 
 #: myagenda/templates/schedule/delete_event.html:5
 msgid "Are you sure that you really want to delete this event?"
-msgstr ""
+msgstr "¿Está seguro de eliminar esta cita?"
 
 #: myagenda/templates/schedule/edit_occurrence.html:70
 msgid "Date"
-msgstr ""
+msgstr "Fecha"
 
 #: schedule/forms.py:11 schedule/forms.py:15
 msgid "The end time must be later than start time."
-msgstr ""
+msgstr "La hora final debe ser mayor que la inicial"
 
 #: schedule/forms.py:23 schedule/models/events.py:33
 msgid "This date is ignored for one time only events."
-msgstr ""
+msgstr "Esta fecha es ignorada para esta ocasión"
 
 #: schedule/forms.py:62
 msgid ""
 "Extra parameters to define this type of recursion. Should follow this "
 "format: rruleparam:value;otherparam:value."
 msgstr ""
+"Parámetros extras para definir el tipo de recursión. Debería tener este formato: rruleparam:value;otherparam:value."
 
 #: schedule/forms.py:69
 msgid "Params format looks invalid"
-msgstr ""
+msgstr "Los parámetros parecen inválidos"
 
 #: schedule/periods.py:285 schedule/periods.py:309
 #: schedule/models/events.py:44
 msgid "DATE_FORMAT"
-msgstr ""
+msgstr "DATE_FORMAT"
 
 #: schedule/periods.py:286
 #, python-format
 msgid "Week: %(start)s-%(end)s"
-msgstr ""
+msgstr "Semana: %(start)s-%(end)s"
 
 #: schedule/periods.py:310
 #, python-format
 msgid "Day: %(start)s-%(end)s"
-msgstr ""
+msgstr "Día: %(start)s-%(end)s"
 
 #: schedule/conf/settings.py:8
 msgid "FIRST_DAY_OF_WEEK"
-msgstr ""
+msgstr "FIRST_DAY_OF_WEEK"
 
 #: schedule/models/calendars.py:136 schedule/models/rules.py:45
 msgid "name"
-msgstr ""
+msgstr "nombre"
 
 #: schedule/models/calendars.py:233 schedule/models/events.py:336
 msgid "distinction"
-msgstr ""
+msgstr "distinto"
 
 #: schedule/models/calendars.py:234
 msgid "inheritable"
-msgstr ""
+msgstr "heredable"
 
 #: schedule/models/calendars.py:239
 msgid "calendar relation"
-msgstr ""
+msgstr "relación del calendario"
 
 #: schedule/models/calendars.py:240
 msgid "calendar relations"
-msgstr ""
+msgstr "relaciones del calendario"
 
 #: schedule/models/events.py:26 schedule/models/events.py:355
 msgid "start"
-msgstr ""
+msgstr "inicio"
 
 #: schedule/models/events.py:27 schedule/models/events.py:356
 msgid "end"
-msgstr ""
+msgstr "fin"
 
 #: schedule/models/events.py:27
 msgid "The end time must be later than the start time."
-msgstr ""
+msgstr "La fecha final debe ser mayor que la inicial"
 
 #: schedule/models/events.py:28 schedule/models/events.py:353
 msgid "title"
-msgstr ""
+msgstr "título"
 
 #: schedule/models/events.py:29 schedule/models/events.py:354
 #: schedule/models/rules.py:46
 msgid "description"
-msgstr ""
+msgstr "descripción"
 
 #: schedule/models/events.py:30
 msgid "creator"
-msgstr ""
+msgstr "creador"
 
 #: schedule/models/events.py:31
 msgid "created on"
-msgstr ""
+msgstr "creado en"
 
 #: schedule/models/events.py:32 schedule/models/rules.py:51
 msgid "rule"
-msgstr ""
+msgstr "regla"
 
 #: schedule/models/events.py:32
 msgid "Select '----' for a one time only event."
-msgstr ""
+msgstr "Selecciona '----' para una cita de una sola ocasión"
 
 #: schedule/models/events.py:33
 msgid "End recurring period"
-msgstr ""
+msgstr "Fin del periodo recurrente"
 
 #: schedule/models/events.py:38 schedule/models/events.py:332
 #: schedule/models/events.py:352
 msgid "event"
-msgstr ""
+msgstr "cita"
 
 #: schedule/models/events.py:39
 msgid "events"
-msgstr ""
+msgstr "citas"
 
 #: schedule/models/events.py:45
 #, python-format
 msgid "%(title)s: %(start)s-%(end)s"
-msgstr ""
+msgstr "%(title)s: %(start)s-%(end)s"
 
 #: schedule/models/events.py:341
 msgid "event relation"
-msgstr ""
+msgstr "relación de la cita"
 
 #: schedule/models/events.py:342
 msgid "event relations"
-msgstr ""
+msgstr "relaciones de la cita"
 
 #: schedule/models/events.py:357
 msgid "cancelled"
-msgstr ""
+msgstr "cencelada"
 
 #: schedule/models/events.py:358
 msgid "original start"
-msgstr ""
+msgstr "inicio original"
 
 #: schedule/models/events.py:359
 msgid "original end"
-msgstr ""
+msgstr "final original"
 
 #: schedule/models/events.py:362
 msgid "occurrence"
-msgstr ""
+msgstr "ocurrencia"
 
 #: schedule/models/events.py:363
 msgid "occurrences"
-msgstr ""
+msgstr "ocurrencias"
 
 #: schedule/models/events.py:434
 #, python-format
 msgid "%(start)s to %(end)s"
-msgstr ""
+msgstr "%(start)s to %(end)s"
 
 #: schedule/models/rules.py:8
 msgid "Yearly"
-msgstr ""
+msgstr "Anual"
 
 #: schedule/models/rules.py:9
 msgid "Monthly"
-msgstr ""
+msgstr "Mensual"
 
 #: schedule/models/rules.py:10
 msgid "Weekly"
-msgstr ""
+msgstr "Semanal"
 
 #: schedule/models/rules.py:11
 msgid "Daily"
-msgstr ""
+msgstr "Diaria"
 
 #: schedule/models/rules.py:12
 msgid "Hourly"
-msgstr ""
+msgstr "Por Hora"
 
 #: schedule/models/rules.py:13
 msgid "Minutely"
-msgstr ""
+msgstr "Por minuto"
 
 #: schedule/models/rules.py:14
 msgid "Secondly"
-msgstr ""
+msgstr "Por segundo"
 
 #: schedule/models/rules.py:47
 msgid "frequency"
-msgstr ""
+msgstr "frecuencia"
 
 #: schedule/models/rules.py:48
 msgid "params"
-msgstr ""
+msgstr "parámetros"
 
 #: schedule/models/rules.py:52
 msgid "rules"
-msgstr ""
+msgstr "reglas"
 
 #: schedule/templates/profiles/schedule.html:4
 msgid "Schedule"
-msgstr ""
+msgstr "Agenda"
 
 #: schedule/templates/profiles/schedule.html:12
 msgid "Start"
-msgstr ""
+msgstr "Inicio"
 
 #: schedule/templates/profiles/schedule.html:13
 msgid "End"
-msgstr ""
+msgstr "Fin"
 
 #: schedule/templates/profiles/schedule.html:14
 msgid "Title"
-msgstr ""
+msgstr "Título"
 
 #: schedule/templates/profiles/schedule.html:26
 #: schedule/templates/profiles/schedule.html:27
 msgid "Event details"
-msgstr ""
+msgstr "Detalle de Cita"
 
 #: schedule/templates/profiles/schedule.html:30
 #: schedule/templates/profiles/schedule.html:31
 msgid "Edit event"
-msgstr ""
+msgstr "Editar cita"
 
 #: schedule/templates/profiles/schedule.html:33
 #: schedule/templates/profiles/schedule.html:34
 msgid "Delete event"
-msgstr ""
+msgstr "Eliminar cita"
 
 #: schedule/templates/profiles/schedule.html:45
 #, python-format
 msgid "You haven't added any <a href=\"%(add_event_url)s\">event</a> yet."
-msgstr ""
+msgstr "No ha añadido una <a href=\"%(add_event_url)s\">cita</a> aún."
 
 #: schedule/templates/profiles/schedule.html:49
 msgid "Add event"
-msgstr ""
+msgstr "Añadir cita"
 
 #: schedule/templates/schedule/_detail.html:7
 #: schedule/templates/schedule/_detail.html:11
@@ -374,14 +376,14 @@ msgstr ""
 #: schedule/templates/schedule/occurrence.html:25
 #: schedule/templates/schedule/occurrence.html:29
 msgid "DATETIME_FORMAT"
-msgstr ""
+msgstr "DATETIME_FORMAT"
 
 #: schedule/templates/schedule/_detail.html:7
 #: schedule/templates/schedule/event.html:38
 #: schedule/templates/schedule/occurrence.html:25
 #, python-format
 msgid "%(start_date)s"
-msgstr ""
+msgstr "%(start_date)s"
 
 #: schedule/templates/schedule/_detail.html:11
 #: schedule/templates/schedule/_detail.html:21
@@ -389,40 +391,40 @@ msgstr ""
 #: schedule/templates/schedule/occurrence.html:29
 #, python-format
 msgid "%(end_date)s"
-msgstr ""
+msgstr "%(end_date)s"
 
 #: schedule/templates/schedule/create_event.html:5
 msgid "Create or change event. All fields are required."
-msgstr ""
+msgstr "Crear o cambiar una cita. Todos los campos son requeridos."
 
 #: schedule/templates/schedule/create_event.html:12
 #: schedule/templates/schedule/edit_occurrence.html:12
 msgid "Save"
-msgstr ""
+msgstr "Guardar"
 
 #: schedule/templates/schedule/delete_event.html:6
 msgid "Are you sure that you really want to delete it?"
-msgstr ""
+msgstr "¿Está seguro de eliminar esto?"
 
 #: schedule/templates/schedule/edit_occurrence.html:5
 msgid "Create or change occurrence. All fields are required."
-msgstr ""
+msgstr "Crear o cambiar ocurrencia. Todos los campos son requeridos."
 
 #: schedule/templates/schedule/event.html:22
 #: schedule/templates/schedule/occurrence.html:16
 msgid "Back"
-msgstr ""
+msgstr "Volver"
 
 #: schedule/templates/schedule/event.html:27
 #: schedule/templates/schedule/occurrence.html:18
 msgid "Change"
-msgstr ""
+msgstr "Cambiar"
 
 #: schedule/templates/schedule/event.html:47
 #, python-format
 msgid "%(end_recurring_date)s"
-msgstr ""
+msgstr "%(end_recurring_date)s"
 
 #: schedule/templates/schedule/event.html:49
 msgid "Never. This is a 'one time only' event."
-msgstr ""
+msgstr "Nunca. Esto es una cita de una sola ocurrencia."

@@ -19,7 +19,7 @@ from schedule.views import calendar_by_periods, get_occurrence
 def home(request):
     calendars = MyCalendar.objects.all()
     if calendars.count() == 0:
-        return HttpResponseRedirect(reverse("calendar_list"))
+        return HttpResponseRedirect(reverse("schedule"))
 
     current_calendar = calendars[0]
 

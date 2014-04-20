@@ -23,6 +23,8 @@ function openEditDialog(node, occurrence_url, event_url, event){
                   $('#calendar').fullCalendar('refetchEvents');
               }};
   dia = $("#edit_dialog").dialog({'buttons':btns, 'modal':true});
+  $('#edit_dialog button:contains(This)').attr("id", "edit_dialog_button_this");
+  $('#edit_dialog_button_this').html("Este");
   dia.dialog('open');
   return false;
 }

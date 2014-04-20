@@ -114,6 +114,8 @@ INSTALLED_APPS = (
     'schedule',
     'myagenda',
 )
+
+
 ANONYMOUS_USER_ID = -1
 
 SHOW_CANCELLED_OCCURRENCES = True
